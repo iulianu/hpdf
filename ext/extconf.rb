@@ -2,5 +2,5 @@
 require 'mkmf'
 $CPPFLAGS = $CPPFLAGS + " -I./include"
 $LDFLAGS = $LDFLAGS + " -L./"
-$LIBS = $LIBS + " -lpng -lz"
+$LIBS = $LIBS + " -lz"
 create_makefile 'hpdf'
